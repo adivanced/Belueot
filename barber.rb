@@ -12,6 +12,7 @@ post "/" do
 	f.write	"clients name:#{@username}, his phne nombur: #{@phone}, date is #{@date}===================="
 	f.close
 		erb :message	
+
 	
 end
 
